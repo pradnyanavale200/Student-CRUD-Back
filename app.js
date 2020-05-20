@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const userRoutes = require('./api/routes/user');
 const studentRoutes = require('./api/routes/student');
 
-mongoose.connect("mongodb+srv://shubhamg_7292:"+process.env.MONGO_ATLAS_PW+"@cluster0-cr1db.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://pknavale:Pradnya@04052000@cluster0-ospcs.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
 // to generate link watch video given in below link
 // https://youtu.be/WDrU305J1yw
 console.log('https://youtu.be/WDrU305J1yw');
